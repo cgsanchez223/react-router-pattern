@@ -1,0 +1,41 @@
+.dogs img{
+    width: 400px;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img:hover{
+    outline: 5px solid blueviolet;
+}
+
+.ChooseDog{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+body{
+    background-color: whitesmoke;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.dog{
+    width: 400px;
+    height: 400px;
+}
+
+button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
